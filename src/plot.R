@@ -1,3 +1,5 @@
+library(ggplot2)
+
 # Plot the points out:
 ggplot(gmpts, aes(longitude, latitude, group = status))+
   scale_fill_gradient(low = "grey70", high = "grey30", guide = "none") +
