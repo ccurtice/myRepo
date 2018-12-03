@@ -1,6 +1,5 @@
 library(dplyr)
 library(readr)
-library(fields)
 
 # Read in data
 # positional data about the RV Kahuna
