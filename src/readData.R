@@ -5,6 +5,7 @@ library(readr)
 # positional data about the RV Kahuna
 
 # add a filepath variable
+# make code more portable, add in var for data dir
 dataDir <- "data/"
 
 kahuna <- read_csv('data/2018-11-26_2017-Cape-Hatteras-BRS-kahuna-CEE.csv')
